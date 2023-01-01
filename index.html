@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Random Password Generator</h1>
+        <div class="box">
+        <span id="pass-box">Testing...</span>
+        <div class="row">
+            <div class="left">Password Length:</div>
+            <div class="right">
+                <input type="number" name="" id="total-char" max="10" min="4" value="4"/>
+            </div>
+            <div class="row">
+                <label for="upper-case">
+                    <div class="left">Add UpperCase:</div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="upper-case" checked/>
+                </div>
+            </div>
+            <div class="row">
+                <label for="lower-case">
+                    <div class="left">Add LowerCase:</div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="lower-case" checked/>
+                </div>
+            </div>
+            <div class="row">
+                <label for="number">
+                    <div class="left">Add Numbers:</div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="numbers" checked/>
+                </div>
+            </div>
+            <div class="row">
+                <label for="symbol">
+                    <div class="left">Add Symbols:</div>
+                </label>
+                <div class="right">
+                    <input type="checkbox" name="" id="symbols" checked/>
+                </div>
+            </div>
+            <div class="row">
+                <button id="btn">
+                    Generate Password
+                </button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="./program.js"></script>
+</body>
+</html>

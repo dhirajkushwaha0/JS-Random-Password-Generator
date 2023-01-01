@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html,
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    background-image: url(./wallpaper.jpg);
+    background-size: cover;   
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+   font-size: 45px;
+   color: rgb(26, 1, 21);
+}
+
+.box{
+    min-height: 400px;
+    width: 400px;
+    background-color: rgb(243, 215, 179);
+    box-shadow: 0px 0px 5px rgb(223, 113, 40);
+    border-radius:10px;
+    border: 3px solid rgb(24, 41, 41);
+    margin-bottom: 100px;
+    margin-left: 95px;
+}
+
+#pass-box{
+    width: 100%;
+    display: block;
+    background-color: rgb(236, 170, 116);
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    
+}
+
+.row{
+    display: block;
+    border: 1px solid rgb(236, 224, 224);
+    background-color: rgb(231, 151, 76);
+    border-radius: 5px;  
+}
+
+.left{
+    font-size: 20px;
+    margin-top: 10px;   
+}
+
+.right{  
+    text-align: end;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#btn{
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #20011b;
+    color: white;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    cursor: pointer;
+}
